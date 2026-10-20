@@ -1,0 +1,32 @@
+{
+ "checkpoint": "/workspace/ckpt/vjepa2-vitl-fpc64-256",
+ "layer": "final",
+ "n_clips": 200,
+ "grid": [
+  8,
+  16,
+  16
+ ],
+ "dim": 1024,
+ "seed": 0,
+ "sec_pass1": 660.1878118515015,
+ "sec_total": 2778.963021993637,
+ "sec_per_forward": 2.315802518328031,
+ "H3": {
+  "top": 50,
+  "thr": 0.7,
+  "min_frac": 0.1,
+  "frac_order": 0.92,
+  "n_order": 46,
+  "go": true,
+  "verdict": "GO"
+ },
+ "mean_si_top50": {
+  "SI_temporal": 0.639528125,
+  "SI_motion": 0.5999952636718751,
+  "SI_spatial": 0.571260693359375,
+  "SI_noise_clip": 0.528870751953125,
+  "SI_semantic": 0.6679423932599535,
+  "SI_semantic_scaled": 0.025833308542639554
+ }
+}
