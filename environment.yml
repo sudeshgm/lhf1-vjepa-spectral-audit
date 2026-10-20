@@ -1,0 +1,17 @@
+name: lhf1
+channels: [pytorch, conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - torch>=2.3
+    - torchvision
+    - timm
+    - transformers>=4.53   # VJEPA2Model
+    - av
+    - numpy
+    - scikit-learn
+    - matplotlib
+    - pytest
+    - huggingface_hub
+    - git+https://github.com/dsb-ifi/soap.git
