@@ -1,6 +1,6 @@
 # LHF-1 — Does V-JEPA put time in its noise or in its signal?
 
-**Status:** not started · **Priority:** best fit for existing work · **Budget:** 2–4 weeks, frozen checkpoints
+**Status:** killed at Exp −1 (H3 no-go), see [results/FAILURE_REPORT.md](results/FAILURE_REPORT.md) · **Priority:** best fit for existing work · **Budget:** 2–4 weeks, frozen checkpoints
 
 > Plugs directly into `../../vjepa_temporal/`. Shares tooling with
 > `../p3_temporal_embedding_diagnostics/`.
